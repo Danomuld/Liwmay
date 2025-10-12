@@ -1,0 +1,189 @@
+@font-face {
+    font-family: snellroundhand;
+    src: url("fonts/snellroundhand_black.otf") format(truetype);
+}
+body {
+    background-attachment: fixed;
+    background-image: url("images/liwmay.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.site {
+    background-color: rgb(248, 194, 177);
+    margin: 5%;
+}
+header {
+    text-align: center;
+    font-family: snellroundhand, cursive;
+}
+.liwmay h1 {
+   font-size: 400%;
+   font-weight: 100;
+}
+.liwmay h2 {
+    font-size: 250%;
+    font-weight: 100;
+}
+.liwmay img {
+    border-radius: 100%;   
+    width: 20%;
+}
+.liwmay button {
+    font-size: 150%;
+    border: none;
+    background-color: skyblue;
+    color: green;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 3px 10px;
+    margin: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.liwmay button:hover {
+    background: rgb(243, 160, 135);
+    color: green;
+    transform: scale();
+}
+hr {
+    border: none;
+    background-color: black;
+    height: 2px;
+}
+.pioni {
+    margin-left: 2%;
+}
+.pioni h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.pioni img {
+    width: 40%;
+    border: solid green;
+    padding: 10px;
+    background-color: white;
+}
+.pioni blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-left: 2px solid;
+    padding-left: 10px;
+}
+.foto {
+    margin-left: 2%;
+}
+.foto h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.foto img {
+    width: 40%;
+    border: solid green;
+    padding: 10px;
+    background-color: white;
+}
+.foto blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-left: 2px solid;
+    padding-left: 10px;
+}
+.fontan {
+    margin-left: 2%;
+}
+.fontan h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.fontan img {
+    width: 50%;
+    border: solid green;
+    padding: 10px;
+    background-color: white;
+}
+.fontan blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-left: 2px solid;
+    padding-left: 10px;
+}
+.fontan p {
+    margin-left: 2%;
+}
+.plyaj {
+    margin-left: 2%;
+}
+.plyaj h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.plyaj img {
+    width: 50%;
+    border: solid green;
+    padding: 5px;
+    background-color: white;
+}
+.plyaj blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-left: 2px solid;
+    padding-left: 10px;
+}
+.plyaj p {
+    margin-left: 2%;
+}
+.egypet {
+    margin-left: 2%;
+}
+.egypet h1 {
+     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.egypet img {
+    width: 50%;
+    border: solid green;
+    padding: 10px;
+    background-color: white;
+}
+.egypet blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-left: 2px solid;
+    padding-left: 10px;
+}
+.egypet p {
+    margin-left: 2%;
+}
+.contacts {
+    background-color: rgb(248, 194, 177);
+    margin: 5%;
+    height: 500px;
+    padding: 25px 10px;
+}
+.contacts h2 {
+    text-align: center;
+}
+.contacts p {
+    text-align: center;
+}
+#liwmay {
+    font-family: snellroundhand, cursive;
+    color: green;
+}
+.contacts footer {
+    border: 2px solid green;
+    margin: 10px 100px;
+    height:px;
+}
+.contacts h3 {
+    text-align: center;
+}
+.prava {
+    display: inline-block;
+    background: green;
+    color: white;
+    width: 340px;
+    border-radius: 10px;
+    padding: 3px;
+    
+}
