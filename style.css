@@ -158,7 +158,6 @@ hr {
 .contacts {
     background-color: rgb(248, 194, 177);
     margin: 5%;
-    height: ;
     padding: 25px 10px;
 }
 .contacts h2 {
@@ -173,11 +172,17 @@ hr {
 }
 .card {
     border: 2px solid green;
-    margin: 10px 100px;
-    height: ;
+    margin: 5% 10%;
 }
 .card h3 {
     text-align: center;
+}
+.connection {
+    border: 2px solid green;
+    border-radius: 20px;
+    text-align: center;
+    margin: 5% 10%;
+    padding: 2%;
 }
 .prava {
     display: inline-block;
