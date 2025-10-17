@@ -179,16 +179,35 @@ hr {
 }
 .connection {
     border: 2px solid green;
-    border-radius: 20px;
+    border-radius: 1.1em;
     text-align: center;
     margin: 5% 10%;
     padding: 2%;
 }
-.prava {
-    display: inline-block;
+.connection form {
+    border: 2px solid lightblue;
+    border-radius: 1.1em;
+    margin: auto;
+    padding: 5%;
+    background-color: lightblue;
+}
+.connection button {
+    border: none;
+    font-size: 1.1em;
     background: green;
     color: white;
-    width: 340px;
     border-radius: 10px;
-    padding: 3px;
+    padding: 3px 10px;
+    margin: 5% 5% 0 5%;
+    transition: background-color 0.5s ease-out;
+}
+.connection button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(5, 184, 5);
+}
+.prava {
+    color: white;
+    width: 340px;
+    padding: 1.1em;
 }
